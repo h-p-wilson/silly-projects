@@ -13,16 +13,19 @@ public class ArrowKeys {
 		frame.setFocusable(true);
 		
 		JPanel panel =  new JPanel();
+		JLabel title = new JLabel();
 		JLabel up = new JLabel();
 		JLabel down = new JLabel();
 		JLabel left = new JLabel();
 		JLabel right = new JLabel();
 		
+		panel.add(title);
 		panel.add(up);
 		panel.add(down);
 		panel.add(left);
 		panel.add(right);
 		
+		title.setText("Arrow Keys Detector : ");
 		up.setText("Up : 0");
 		down.setText("Down : 0");
 		left.setText("Left : 0");
